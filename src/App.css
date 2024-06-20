@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+.container{
+  width:743px;
+  height:91px;
+  width: 743px;
+background-color: #3579F5;
+margin-top: 226px;
+margin-left: 455px;
+padding: 10px;
+border-radius:6px;
+opacity: 0px;
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.circle{
+  width: 60px; 
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
   display: flex;
-  flex-direction: column;
+  justify-content: center; 
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  margin-top: 16px;
+  margin-left: 22px; 
   }
-  to {
-    transform: rotate(360deg);
+
+  .bar{
+    margin:0;
+    color:#FFFFFF;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+     }
+
+
+  .cta{
+    width:170px;
+    height:40px;
+    background-color: #F4F8FF;
+    color:#3579F5;
+    padding: 10px 32px 10px 32px;
+border-radius: 6px;
+border:none;
+
   }
-}
+
+  .next{
+ font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+text-align: left;
+color:#FFFFFF;
+  }
+
+  .done{
+    font-family: Inter;
+font-size: 15px;
+font-weight: 600;
+line-height: 20px;
+text-align: left;
+color:#FFFFFF;
+  }
+
+
+  .checkOne{
+    background-color: #2364DB;
+    width: 76px;
+    height: 18px;
+    text-align:center;
+    padding: 0px 10px 0px 10px;
+border-radius: 40px;
+opacity: 0px;
+color:#FFFFFF;
+font-size:12px ;
+font-family: Inter;
+  }
